@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WC Dual Checkout
  * Description: Plugin para manejar flujos duales de checkout en WooCommerce
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: matimac
  * License: MIT
  */
