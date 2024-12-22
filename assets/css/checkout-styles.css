@@ -1,0 +1,63 @@
+/* Estilos generales del checkout */
+.woocommerce-checkout #ship-to-different-address {
+    margin: 20px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.woocommerce-checkout #ship-to-different-address label {
+    font-weight: normal;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Estilos para los métodos de envío */
+.woocommerce ul#shipping_method {
+    margin: 15px 0;
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 4px;
+}
+
+.woocommerce ul#shipping_method li {
+    margin: 10px 0;
+    padding: 8px;
+    transition: background-color 0.3s;
+}
+
+.woocommerce ul#shipping_method li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilos para los radio buttons */
+.woocommerce ul#shipping_method input[type="radio"] {
+    margin-right: 8px;
+}
+
+.woocommerce ul#shipping_method label {
+    cursor: pointer;
+    font-weight: normal;
+}
+
+/* Estilos para los precios */
+.woocommerce ul#shipping_method .amount {
+    font-weight: bold;
+    color: #2c2c2c;
+}
+
+/* Estilos específicos para compra directa */
+.wc-buy-now-active .woocommerce-shipping-fields {
+    margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .woocommerce ul#shipping_method li {
+        padding: 10px 5px;
+    }
+    
+    .woocommerce-checkout #ship-to-different-address {
+        margin: 15px 0;
+        padding: 10px 0;
+    }
+}
